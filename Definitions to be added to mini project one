@@ -1,13 +1,17 @@
 
 1.	How python uses the Indentation to control Flow
 
-Python uses indentation to the control the flow of code. Each block contains a group of code to be run together. Once a separate indentation is made, python will read it as a separate group of code. Note that the block must all contain the same amount of indentations to be read together. 
+Python uses indentation to the control the flow of code. Each block contains a group of code to be run together. Once a 
+separate indentation is made, python will read it as a separate group of code. 
+Note that the block must all contain the same amount of indentations to be read together. 
 Example layout:
  
 Source: https://www.python-course.eu/python3_blocks.php
 
 2.	Don’t repeat yourself
-The Don’t repeat yourself (DRY) principle in python is necessary in avoiding unnecessary repetition with the code. It allows for the code to have a better flow and be easier to read. Another benefit is that if the code needs to be update, it will help in reducing additional work needed. 
+The Don’t repeat yourself (DRY) principle in python is necessary in avoiding unnecessary repetition with the code. 
+It allows for the code to have a better flow and be easier to read. Another benefit is that if the code needs to be update, 
+it will help in reducing additional work needed. 
 
 Example: 
 Rather than listing the following separately it could be combined into one listing. 
@@ -21,7 +25,8 @@ print(test3)
 Source: https://www.earthdatascience.org/courses/earth-analytics-bootcamp/loops/intro-dry-code/
 
 3.	Design patterns from Gang of Four
-The Gang of Four design patterns are a group of 23 patterns that are the foundation for software design. They breakdown into three categories: Creational, Structural, and Behavior.
+The Gang of Four design patterns are a group of 23 patterns that are the foundation for software design. 
+They breakdown into three categories: Creational, Structural, and Behavior.
 
 
 A singleton pattern which is a creational pattern is a class of which only a single instance can exist. 
@@ -68,7 +73,8 @@ class MyClass:
 Source: https://www.learnpython.org/en/Classes_and_Objects
 
 5.	Object
-Python is an object oriented programming language. An object is a collection of data (variables) and methods (functions) that act on those data. 
+Python is an object oriented programming language. An object is a collection of data (variables) and methods (functions) 
+that act on those data. 
 Example: 
 p1 = MyClass()
 print(p1.x)
@@ -78,7 +84,8 @@ Source: https://www.w3schools.com/python/python_classes.asp , https://www.progra
 6.	Static
 
 7.	Property/Attribute
-In python, everything is an object. And every object has attributes and methods or functions. Attributes are described by data variables for example like name, age, height etc.
+In python, everything is an object. And every object has attributes and methods or functions. Attributes are described 
+by data variables for example like name, age, height etc.
 Properties are special kind of attributes which have getter, setter and delete methods like __get__, __set__ and __delete__ methods.
 
 Source: https://www.tutorialspoint.com/What-is-the-difference-between-attributes-and-properties-in-python
@@ -89,7 +96,8 @@ Source: https://www.tutorialspoint.com/What-is-the-difference-between-attributes
 Exception is an error message within Python that can potential occur when running the program. 
 Example:
 IOError – which occurs if the file cannot be opened.
-Source: https://www.pythonforbeginners.com/error-handling/exception-handling-in-python#:~:targetText=An%20exception%20is%20an%20error,avoids%20your%20program%20to%20crash.
+Source: https://www.pythonforbeginners.com/error-handling/exception-handling-in-python#:~:targetText=An%20exception%20is%20an%20error,
+avoids%20your%20program%20to%20crash.
 
 10.	Unit Test
 Unit testing is the testing of each unit of software. Each test must be able to be run alone. 
@@ -118,7 +126,8 @@ OK
 Source: https://www.geeksforgeeks.org/unit-testing-python-unittest/
 
 11.	Constructor
-A constructor is method which is used for initializing the instance variables during object creation. There are two types of constructors: default constructor and parameterized constructor.
+A constructor is method which is used for initializing the instance variables during object creation. 
+There are two types of constructors: default constructor and parameterized constructor.
 
 Example:
 class DemoClass:
@@ -141,7 +150,8 @@ Source: https://beginnersbook.com/2018/03/python-constructors-default-and-parame
 12.	Factory
 
 13.	Decorator
-Decorators modify the behavior of function or class. Decorators allow to wrap another function in order to extend the behavior of wrapped function, without permanently modifying it.
+Decorators modify the behavior of function or class. Decorators allow to wrap another function in order to extend 
+the behavior of wrapped function, without permanently modifying it.
 
 Example: 
  
@@ -150,7 +160,8 @@ Source: https://www.geeksforgeeks.org/decorators-in-python/
 14.	Extend Class
 
 15.	CSV Files
-A Comma Separated Values file (CSV) a plain text data only file. It separates the data values with a delimiter of a comma within the file. 
+A Comma Separated Values file (CSV) a plain text data only file. It separates the data values with a delimiter of a 
+comma within the file. 
 Example of file contents:
 column 1 name,column 2 name, column 3 name
 first row data 1,first row data 2,first row data 3
