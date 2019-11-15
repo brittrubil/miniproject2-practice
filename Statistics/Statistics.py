@@ -3,6 +3,8 @@ from Statistics.Mean import mean
 from Statistics.Median import median
 from Statistics.Mode import mode
 from Statistics.Deviation import deviation
+from Statistics.Variance import variance
+
 from Statistics.SampleMean import sample_mean
 import pprint
 from CsvReader.CsvReader import CsvReader
@@ -30,6 +32,9 @@ class Statistics:
         self.result = deviation(a, b, c, d, e)
         return self.result
 
+    def pvariance(self, a, b, c, d, e, f, g, h):
+        self.result = variance(a, b, c, d, e, f, g, h)
+        return self.result
 
     #def sample_mean(self, sample_size):
         #self.result = sample_mean(self.data, sample_size)
