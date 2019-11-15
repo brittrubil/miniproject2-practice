@@ -1,5 +1,5 @@
 
-1.	How python uses the Indentation to control Flow
+**1.	How python uses the Indentation to control Flow**
 
 Python uses indentation to the control the flow of code. Each block contains a group of code to be run together. Once a 
 separate indentation is made, python will read it as a separate group of code. 
@@ -8,7 +8,7 @@ Example layout:
  
 Source: https://www.python-course.eu/python3_blocks.php
 
-2.	Don’t repeat yourself
+**2.	Don’t repeat yourself**
 The Don’t repeat yourself (DRY) principle in python is necessary in avoiding unnecessary repetition with the code. 
 It allows for the code to have a better flow and be easier to read. Another benefit is that if the code needs to be update, 
 it will help in reducing additional work needed. 
