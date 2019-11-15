@@ -5,7 +5,7 @@ def sample_mean(a, b, c):
         c = int(c)
         mean_numbers = [a, b, c]
         d = len(mean_numbers)
-        result_mean = (a + b + c)/n
+        result_mean = (a + b + c)/d
         return result_mean
     except ZeroDivisionError:
         print("Error: Number Not Valid")
