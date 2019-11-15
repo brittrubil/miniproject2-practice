@@ -15,7 +15,7 @@ For this program you need to work in a team of 2-3 to create a statistical calcu
 - [x] Mode
 - [x] Population Standard Deviation
 - [ ] Variance of population proportion
-- [ ] Z-Score
+- [x] Z-Score
 - [ ] Standardized score
 - [ ] Population Correlation Coefficient
 - [ ] Confidence Interval
