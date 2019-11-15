@@ -1,10 +1,10 @@
-##Mini Project 2 
+## Mini Project 2 
 #### Create a Python Module to Perform Statistical Calculations
 #### Erika Reyes, Brittani Rubil, Christine Gonzales
 
 [![Build Status](https://travis-ci.com/brittrubil/miniproject2-practice.svg?branch=master)](https://travis-ci.com/brittrubil/miniproject2-practice)
 
-####Your program needs to calculate the following:
+#### Your program needs to calculate the following:
 
 - [ ] Population Mean
 - [x] Median
@@ -22,7 +22,7 @@
 - [ ] Sample Standard Deviation
 - [ ] Variance of sample proportion
 
-####In addition, your team must update your mini-project 1 with definitions and examples of the following terms:
+#### In addition, your team must update your mini-project 1 with definitions and examples of the following terms:
 
 [Definitions](https://github.com/brittrubil/miniProject1-601) need to update link to point to right file
 
@@ -43,7 +43,7 @@
 - [x] CSV Files
 - [x] Reading Files
 
-####Submission  and Project Requirements:
+#### Submission  and Project Requirements:
 
 - [ ] You must submit a link to your Github for Mini Project 1 (updated terms) and 2 (statistical calculator)
 - [ ] You must submit a link to Travis CI running your tests successfully
