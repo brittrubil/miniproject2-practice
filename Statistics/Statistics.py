@@ -45,6 +45,9 @@ class Statistics:
         self.result = zscore(a, b, c)
         return self.result
 
+    def sample_mean(self, a, b, c):
+        self.result = mean(a, b, c)
+        return self.result
 
     #def sample_mean(self, sample_size):
         #self.result = sample_mean(self.data, sample_size)
