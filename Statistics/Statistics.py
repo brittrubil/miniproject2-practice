@@ -1,6 +1,7 @@
 from Calculator.Calculator import Calculator
 from Statistics.Mean import mean
 from Statistics.Median import median
+from Statistics.Mode import mode
 from Statistics.SampleMean import sample_mean
 import pprint
 from CsvReader.CsvReader import CsvReader
@@ -18,6 +19,10 @@ class Statistics:
 
     def median(self, a, b, c, d):
         self.result = median(a, b,c, d)
+        return self.result
+
+    def mode(self, a, b, c, d):
+        self.result = mode(a, b, c, d)
         return self.result
 
     #def sample_mean(self, sample_size):
