@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/brittrubil/miniproject2-practice.svg?branch=master)](https://travis-ci.com/brittrubil/miniproject2-practice)
