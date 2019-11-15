@@ -5,6 +5,7 @@ from Statistics.Mode import mode
 from Statistics.Deviation import deviation
 from Statistics.Variance import variance
 from Statistics.PopulationDeviation import population_deviation
+from Statistics.ZScore import zscore
 from Statistics.SampleMean import sample_mean
 import pprint
 from CsvReader.CsvReader import CsvReader
@@ -39,6 +40,12 @@ class Statistics:
     def pstdev(self, a, b, c, d, e, f):
         self.result = population_deviation(a, b, c, d, e, f)
         return self.result
+
+    def zscore(self, a, b, c):
+        self.result = zscore(a, b, c)
+        return self.result
+
+
     #def sample_mean(self, sample_size):
         #self.result = sample_mean(self.data, sample_size)
         #return self.result
