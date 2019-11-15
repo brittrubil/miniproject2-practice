@@ -25,7 +25,7 @@ print(test3)
 
 Source: https://www.earthdatascience.org/courses/earth-analytics-bootcamp/loops/intro-dry-code/
 
-3.	Design patterns from Gang of Four
+**3.	Design patterns from Gang of Four**
 The Gang of Four design patterns are a group of 23 patterns that are the foundation for software design. 
 They breakdown into three categories: Creational, Structural, and Behavior.
 
@@ -63,9 +63,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 Source: https://www.dofactory.com/net/design-patterns , https://sourcemaking.com/design_patterns/singleton/python/1
 
-4.	Class
+**4.	Class**
+<br>
+
 A class allows for a way to create objects. It is consider to be the template for creating objects.
 
 Example:
@@ -73,7 +76,9 @@ class MyClass:
   x = 5
 Source: https://www.learnpython.org/en/Classes_and_Objects
 
-5.	Object
+**5.	Object**
+<br>
+
 Python is an object oriented programming language. An object is a collection of data (variables) and methods (functions) 
 that act on those data. 
 Example: 
@@ -82,27 +87,34 @@ print(p1.x)
 
 Source: https://www.w3schools.com/python/python_classes.asp , https://www.programiz.com/python-programming/class
 
-6.	Static
+**6.	Static**
+<br>
 
-7.	Property/Attribute
+**7.	Property/Attribute**
+<br>
 In python, everything is an object. And every object has attributes and methods or functions. Attributes are described 
 by data variables for example like name, age, height etc.
 Properties are special kind of attributes which have getter, setter and delete methods like __get__, __set__ and __delete__ methods.
 
 Source: https://www.tutorialspoint.com/What-is-the-difference-between-attributes-and-properties-in-python
-8.	Method
 
 
-9.	Exception
+**8.	Method**
+<br>
+
+**9.	Exception**
+<br>
 Exception is an error message within Python that can potential occur when running the program. 
 Example:
 IOError – which occurs if the file cannot be opened.
-Source: https://www.pythonforbeginners.com/error-handling/exception-handling-in-python#:~:targetText=An%20exception%20is%20an%20error,
-avoids%20your%20program%20to%20crash.
 
-10.	Unit Test
+Source: https://www.pythonforbeginners.com/error-handling/exception-handling-in-python#:~:targetText=An%20exception%20is%20an%20error,avoids%20your%20program%20to%20crash.
+
+**10.	Unit Test**
+<br>
 Unit testing is the testing of each unit of software. Each test must be able to be run alone. 
 A successful unit test will show “OK” and an unsuccessful test will show either “FAIL” or “ERROR”.
+
 Example: 
 import unittest 
   
@@ -126,7 +138,8 @@ OK
 
 Source: https://www.geeksforgeeks.org/unit-testing-python-unittest/
 
-11.	Constructor
+**11.	Constructor**
+<br>
 A constructor is method which is used for initializing the instance variables during object creation. 
 There are two types of constructors: default constructor and parameterized constructor.
 
@@ -141,16 +154,17 @@ class DemoClass:
     def read_number(self):
         print(self.num)
 
-
-# creating object of the class. This invokes constructor
 obj = DemoClass()
 
-# calling the instance method using the object obj
 obj.read_number()
-Source: https://beginnersbook.com/2018/03/python-constructors-default-and-parameterized/
-12.	Factory
 
-13.	Decorator
+Source: https://beginnersbook.com/2018/03/python-constructors-default-and-parameterized/
+
+**12. Factory**
+<br>
+
+**13.	Decorator**
+<br>
 Decorators modify the behavior of function or class. Decorators allow to wrap another function in order to extend 
 the behavior of wrapped function, without permanently modifying it.
 
@@ -158,9 +172,12 @@ Example:
  
 Source: https://www.geeksforgeeks.org/decorators-in-python/
 
-14.	Extend Class
+**14.	Extend Class**
+<br>
 
-15.	CSV Files
+**15.	CSV Files**
+<br>
+
 A Comma Separated Values file (CSV) a plain text data only file. It separates the data values with a delimiter of a 
 comma within the file. 
 Example of file contents:
@@ -170,7 +187,8 @@ second row data 1,second row data 2,second row data 3
 
 Source: https://realpython.com/python-csv/
  
-16.	Reading Files
+**16.	Reading Files**
+<br>
 In order to read a file such as a CSV file, an object reader would need to be added. 
 Example object reader: 
 import csv
