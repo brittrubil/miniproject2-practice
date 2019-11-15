@@ -21,7 +21,7 @@ For this program you need to work in a team of 2-3 to create a statistical calcu
 - [ ] Confidence Interval
 - [ ] Population Variance
 - [x] P Value
-- [ ] Proportion
+- [x] Proportion
 - [x] Sample Mean
 - [ ] Sample Standard Deviation
 - [ ] Variance of sample proportion
