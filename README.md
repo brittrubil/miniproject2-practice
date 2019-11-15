@@ -4,6 +4,10 @@
 
 [![Build Status](https://travis-ci.com/brittrubil/miniproject2-practice.svg?branch=master)](https://travis-ci.com/brittrubil/miniproject2-practice)
 
+#### Objective
+
+For this program you need to work in a team of 2-3 to create a statistical calculator.   In this project you need to either decorate or extend the calculator class you previously created individually.  For each calculation you need to create at least one test to check for the correct value and another test to check for invalid input.  Invalid input should throw an exception with a description of the problem.
+
 #### Your program needs to calculate the following:
 
 - [ ] Population Mean
