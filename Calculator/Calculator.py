@@ -6,7 +6,6 @@ from Calculator.Square import square
 from Calculator.SquareRoot import squareroot
 
 
-
 class Calculator:
     result = 0
 

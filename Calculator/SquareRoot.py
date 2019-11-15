@@ -1,4 +1,6 @@
 import math
+
+
 def squareroot(a):
     a = int(a)
     c = math.sqrt(a)
