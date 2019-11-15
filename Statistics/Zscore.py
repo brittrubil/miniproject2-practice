@@ -3,8 +3,8 @@ def zscore(a, b, c):
         a = int(a)
         b = int(b)
         c = int(c)
-        d = (a - b) / c
-        return d
+        d = float((a - b) / c)
+        return float(format(d, '.3f'))
     except ZeroDivisionError:
         print("Error: Number Not Valid")
     except ValueError:
