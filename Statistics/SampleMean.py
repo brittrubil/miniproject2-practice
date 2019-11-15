@@ -1,17 +1,13 @@
-from Calculator.Addition import addition
-from Calculator.Division import division
-from Statistics.Getsample import getSample
-
-
-def sample_mean(data, sample_size):
-    total = 0
-    # check that get sample returns the proper number of samples
-    # check that sample size is not 0
-    # check that sample size is not larger than the population
-    # https://realpython.com/python-exceptions/
-    # https://stackoverflow.com/questions/129507/how-do-you-test-that-a-python-function-throws-an-exception
-    sample = getSample(data, sample_size)
-    num_values = len(sample)
-    for num in sample:
-        total = addition(total, num)
-    return division(total, num_values)
+def sample_mean(a, b, c):
+    try:
+        a = int(a)
+        b = int(b)
+        c = int(c)
+        mean_numbers = [a, b, c]
+        d = len(mean_numbers)
+        result_mean = (a + b + c)/n
+        return result_mean
+    except ZeroDivisionError:
+        print("Error: Number Not Valid")
+    except ValueError:
+        print("Error: Only Numeric Values")
