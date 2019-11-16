@@ -5,7 +5,7 @@ from Statistics.Mode import mode
 from Statistics.Deviation import deviation
 from Statistics.Variance import variance
 from Statistics.PopulationDeviation import population_deviation
-from Statistics.ZScore import zscore
+from Statistics.Zscore import zscore
 from Statistics.SampleMean import sample_mean
 import pprint
 from CsvReader.CsvReader import CsvReader
@@ -45,9 +45,6 @@ class Statistics:
         self.result = zscore(a, b, c)
         return self.result
 
-    def sample_mean(self, a, b, c):
-        self.result = mean(a, b, c)
-        return self.result
 
     #def sample_mean(self, sample_size):
         #self.result = sample_mean(self.data, sample_size)

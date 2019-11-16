@@ -85,6 +85,9 @@ Source: https://www.w3schools.com/python/python_classes.asp , https://www.progra
 
 **6.	Static**
 <br>
+Static method is also a method which is bound to the class and not the object of the class and cannot access or modify class state.
+Static variable or class are shared by all objects.
+<br>
 
 **7.	Property/Attribute**
 <br>
@@ -97,6 +100,8 @@ Source: https://www.tutorialspoint.com/What-is-the-difference-between-attributes
 
 **8.	Method**
 <br>
+A method is a function that takes a class instance as its first parameter. Methods are members of classes.
+For example, list objects have methods called append, insert, remove, sort, and so on.
 
 **9.	Exception**
 <br>
@@ -205,6 +210,7 @@ Source: https://www.geeksforgeeks.org/decorators-in-python/
 
 **14.	Extend Class**
 <br>
+Extend class iterates over its argument and adding each element to the list and extending the list. The length of the list increases by number of elements in it's argument.
 
 **15.	CSV Files**
 <br>
