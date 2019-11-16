@@ -7,7 +7,7 @@ separate indentation is made, python will read it as a separate group of code.
 Note that the block must all contain the same amount of indentations to be read together. 
 Example layout:
 
-![Blocks](/images/blocks.png)
+![Blocks](/Images/blocks.png)
 
 Source: https://www.python-course.eu/python3_blocks.php
 
