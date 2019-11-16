@@ -16,7 +16,10 @@ from Statistics.Correlation_Coefficient import correlation_coefficient
 from Statistics.Confidence_Interval import confidence_interval
 
 class Statistics(Calculator):
-    data = []
+    result = 0
+    
+     def __init__(self):
+        super().__init__()
 
     def mean(self, a, b):
         self.result = mean(a, b)
