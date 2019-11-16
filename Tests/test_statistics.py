@@ -58,6 +58,12 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.sample_mean(row['Value 1'], row['Value 2'], row['Value 3']), float(row['Result']))
             self.assertEqual(self.statistics.result, float(row['Result']))
 
+    def test_proportion(self):
+        test_data = CsvReader("/Tests/Data/proportion.csv").data
+        for row in test_data:
+            self.assertEqual(self.statistics.proportion(row['Value 1'], row['Value 2'], row['Value 3']), float(row['Result']))
+            self.assertEqual(self.statistics.result, float(row['Result']))
+
 
 
 

@@ -5,7 +5,7 @@ def proportion(a, b, c):
         c = int(c)
         ratio = a/b
         pro = c / ratio
-        return pro
+        return float(format(pro, '.2f'))
     except ZeroDivisionError:
         print("Error: Number Not Valid")
     except ValueError:

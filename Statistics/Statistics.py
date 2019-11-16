@@ -7,6 +7,7 @@ from Statistics.Variance import variance
 from Statistics.PopulationDeviation import population_deviation
 from Statistics.Zscore import zscore
 from Statistics.SampleMean import sample_mean
+from Statistics.Proportion import proportion
 import pprint
 from CsvReader.CsvReader import CsvReader
 
@@ -43,6 +44,10 @@ class Statistics:
 
     def sample_mean(self, a, b, c):
         self.result = sample_mean(a, b, c)
+        return self.result
+
+    def proportion(self, a, b, c):
+        self.result = proportion(a, b, c)
         return self.result
 
 
