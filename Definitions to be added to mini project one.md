@@ -4,9 +4,13 @@
 
 Python uses indentation to the control the flow of code. Each block contains a group of code to be run together. Once a 
 separate indentation is made, python will read it as a separate group of code. 
-Note that the block must all contain the same amount of indentations to be read together. 
+Note that the block must all contain the same amount of indentations to be read together.
+<br>
+
 Example layout:
- 
+
+![Blocks](/Images/blocks.png)
+
 Source: https://www.python-course.eu/python3_blocks.php
 
 **2.	Don’t repeat yourself**
@@ -205,6 +209,9 @@ Decorators modify the behavior of function or class. Decorators allow to wrap an
 the behavior of wrapped function, without permanently modifying it.
 
 Example: 
+<br>
+
+![Decroator](/Images/decorators_step.png)
  
 Source: https://www.geeksforgeeks.org/decorators-in-python/
 
