@@ -15,7 +15,7 @@ from Statistics.Sample_Proportion import sample_proportion
 from Statistics.Correlation_Coefficient import correlation_coefficient
 from Statistics.Confidence_Interval import confidence_interval
 
-class Statistics:
+class Statistics(Calculator):
     data = []
 
     def mean(self, a, b):
