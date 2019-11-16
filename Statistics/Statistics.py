@@ -12,6 +12,8 @@ from Statistics.SampleMean import sample_mean
 from Statistics.StandardScore import standardscore
 from Statistics.VariancePopulationProportion import populationproportion
 from Statistics.Sample_Proportion import sample_proportion
+from Statistics.Correlation_Coefficient import correlation_coefficient
+
 import pprint
 from CsvReader.CsvReader import CsvReader
 
@@ -72,5 +74,9 @@ class Statistics:
 
     def sample_proportion(self, a, b, c):
         self.result = sample_proportion(a, b, c)
+        return self.result
+
+    def correlation_coefficient(self, a):
+        self.result = correlation_coefficient(a)
         return self.result
 

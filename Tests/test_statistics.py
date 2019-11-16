@@ -2,6 +2,7 @@ import unittest
 from Calculator.Calculator import Calculator
 from Statistics.Statistics import Statistics
 from CsvReader.CsvReader import CsvReader
+
 from statistics import pvariance
 
 class MyTestCase(unittest.TestCase):
@@ -92,6 +93,13 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             self.assertEqual(self.statistics.sample_proportion(row['Value 1'], row['Value 2'], row['Value 3']), float(row['Result']))
             self.assertEqual(self.statistics.result, float(row['Result']))
+
+    def correlation_coefficient(self):
+        test_data = CsvReader("/Tests/Data/correlationcoefficient.csv").data
+        for row in test_data:
+            self.assertEqual(self.statistics.correlation_coefficient(row['Value 1']), float(row['Result']))
+            self.assertEqual(self.statistics.result, float(row['Result']))
+
 
 
 
