@@ -10,13 +10,13 @@ For this program you need to work in a team of 2-3 to create a statistical calcu
 
 #### Your program needs to calculate the following:
 
-- [ ] Population Mean
+- [x] Population Mean
 - [x] Median
 - [x] Mode
 - [x] Population Standard Deviation
-- [ ] Variance of population proportion
+- [x] Variance of population proportion
 - [x] Z-Score
-- [ ] Standardized score
+- [x] Standardized score
 - [ ] Population Correlation Coefficient
 - [ ] Confidence Interval
 - [ ] Population Variance
