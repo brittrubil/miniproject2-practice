@@ -64,8 +64,23 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.proportion(row['Value 1'], row['Value 2'], row['Value 3']), float(row['Result']))
             self.assertEqual(self.statistics.result, float(row['Result']))
 
+    def test_pvalue(self):
+        test_data = CsvReader("/Tests/Data/pvalue.csv").data
+        for row in test_data:
+            self.assertEqual(self.statistics.pvalue(row['Value 1'], row['Value 2'], row['Value 3'], row['Value 4']), float(row['Result']))
+            self.assertEqual(self.statistics.result, float(row['Result']))
 
+    def test_sample_mean(self):
+        test_data = CsvReader("/Tests/Data/samplemean.csv").data
+        for row in test_data:
+            self.assertEqual(self.statistics.sample_mean(row['Value 1'], row['Value 2'], row['Value 3']), float(row['Result']))
+            self.assertEqual(self.statistics.result, float(row['Result']))
 
+    def test_standardscore(self):
+        test_data = CsvReader("/Tests/Data/standardscore.csv").data
+        for row in test_data:
+            self.assertEqual(self.statistics.standardscore(row['Value 1'], row['Value 2'], row['Value 3']), float(row['Result']))
+            self.assertEqual(self.statistics.result, float(row['Result']))
 
 if __name__ == '__main__':
     unittest.main()

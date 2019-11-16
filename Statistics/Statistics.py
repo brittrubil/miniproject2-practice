@@ -8,6 +8,9 @@ from Statistics.PopulationDeviation import population_deviation
 from Statistics.Zscore import zscore
 from Statistics.SampleMean import sample_mean
 from Statistics.Proportion import proportion
+from Statistics.Pvalue import pvalue
+from Statistics.SampleMean import sample_mean
+from Statistics.StandardScore import standardscore
 import pprint
 from CsvReader.CsvReader import CsvReader
 
@@ -50,4 +53,15 @@ class Statistics:
         self.result = proportion(a, b, c)
         return self.result
 
+    def pvalue(self, a, b, c, d):
+        self.result = pvalue(a, b, c, d)
+        return self.result
+
+    def sample_mean(self, a, b, c):
+        self.result = sample_mean(a, b, c)
+        return self.result
+
+    def standardscore(self, a, b, c):
+        self.result = standardscore(a, b, c)
+        return self.result
 
