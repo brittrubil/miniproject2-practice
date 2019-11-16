@@ -13,9 +13,7 @@ from Statistics.StandardScore import standardscore
 from Statistics.VariancePopulationProportion import populationproportion
 from Statistics.Sample_Proportion import sample_proportion
 from Statistics.Correlation_Coefficient import correlation_coefficient
-
-import pprint
-from CsvReader.CsvReader import CsvReader
+from Statistics.Confidence_Interval import confidence_interval
 
 class Statistics:
     data = []
@@ -80,3 +78,6 @@ class Statistics:
         self.result = correlation_coefficient(a)
         return self.result
 
+    def confidence_interval(self, a):
+        self.result = confidence_interval(a)
+        return self.result

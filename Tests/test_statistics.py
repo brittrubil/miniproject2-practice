@@ -3,7 +3,6 @@ from Calculator.Calculator import Calculator
 from Statistics.Statistics import Statistics
 from CsvReader.CsvReader import CsvReader
 
-from statistics import pvariance
 
 class MyTestCase(unittest.TestCase):
     def setUp(self) -> None:
@@ -98,6 +97,12 @@ class MyTestCase(unittest.TestCase):
         test_data = CsvReader("/Tests/Data/correlationcoefficient.csv").data
         for row in test_data:
             self.assertEqual(self.statistics.correlation_coefficient(row['Value 1']), float(row['Result']))
+            self.assertEqual(self.statistics.result, float(row['Result']))
+
+    def confidence_interval(self):
+        #test_data = CsvReader("/Tests/Data/correlationcoefficient.csv").data
+        #for row in test_data:
+            self.assertEqual(self.statistics.confidence_interval(row['Value 1']), float(row['Result']))
             self.assertEqual(self.statistics.result, float(row['Result']))
 
 
