@@ -13,10 +13,6 @@ from CsvReader.CsvReader import CsvReader
 class Statistics:
     data = []
 
-    #def __init__(self, filepath):
-        #self.data = CsvReader(filepath)
-        #super().__init__()
-
     def mean(self, a, b):
         self.result = mean(a, b)
         return self.result
@@ -46,6 +42,3 @@ class Statistics:
         return self.result
 
 
-    #def sample_mean(self, sample_size):
-        #self.result = sample_mean(self.data, sample_size)
-        #return self.result

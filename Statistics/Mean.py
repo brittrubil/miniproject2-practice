@@ -1,10 +1,10 @@
-def mean(a, b, c):
+def mean(a, b):
     try:
         a = int(a)
         b = int(b)
-        c = int(c)
-        d = (a + b) / c
-        return d
+        c = int(a + b)
+        return c / 2
+
     except ZeroDivisionError:
         print("Error: Number Not Valid")
     except ValueError:
