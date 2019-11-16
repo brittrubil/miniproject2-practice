@@ -35,15 +35,15 @@ For this program you need to work in a team of 2-3 to create a statistical calcu
 - [x] Design Patterns from Gang of Four
 - [x] Class
 - [x] Object
-- [ ] Static
+- [x] Static
 - [x] Property / Attribute
-- [ ] Method
+- [x] Method
 - [x] Exception
 - [x] Unit Test
 - [x] Constructor
 - [x] Factory
 - [x] Decorator
-- [ ] Extend Class
+- [x] Extend Class
 - [x] CSV Files
 - [x] Reading Files
 
