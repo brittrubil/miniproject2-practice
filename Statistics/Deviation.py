@@ -1,7 +1,7 @@
 from statistics import stdev
 
 
-def deviation(a, b , c, d, e):
+def deviation(a, b, c, d, e):
     try:
         a = int(a)
         b = int(b)
