@@ -1,5 +1,4 @@
 import unittest
-from Calculator.Calculator import Calculator
 from Statistics.Statistics import Statistics
 from CsvReader.CsvReader import CsvReader
 
@@ -99,7 +98,6 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.correlation_coefficient(row['Value 1']), float(row['Result']))
             self.assertEqual(self.statistics.result, float(row['Result']))
 
-
-
+ 
 if __name__ == '__main__':
     unittest.main()
