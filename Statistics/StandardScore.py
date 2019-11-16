@@ -1,10 +1,10 @@
 def standardscore(a, b, c):
     try:
-        a = int(a)
-        b = int(b)
-        c = int(c)
+        a = float(a)
+        b = float(b)
+        c = float(c)
         d = (a - b) / c
-        return d
+        return float(d)
     except ZeroDivisionError:
         print("Error: Number Not Valid")
     except ValueError:
