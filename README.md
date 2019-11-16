@@ -61,3 +61,11 @@ For this program you need to work in a team of 2-3 to create a statistical calcu
 - [x] You need a module for calculator
 - [x] You need to throw exceptions when there is a problem such as file not found.
 - [x] You must have tests for you calculator, statistics, and CSV file reading modules.   
+
+#### Change Log
+
+Date | Description
+---- | ----
+11-15-19 | Changed by Christine
+11-15-19 | Changed by Erika
+11-15-19 | Changed by Brittani
