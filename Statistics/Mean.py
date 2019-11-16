@@ -2,8 +2,11 @@ def mean(a, b):
     try:
         a = int(a)
         b = int(b)
-        c = int(a + b)
-        return c / 2
+
+        mean_numbers = [a, b]
+        d = len(mean_numbers)
+        result_mean = (a + b) / d
+        return float(result_mean)
 
     except ZeroDivisionError:
         print("Error: Number Not Valid")
