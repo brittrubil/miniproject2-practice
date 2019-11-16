@@ -11,6 +11,7 @@ from Statistics.Proportion import proportion
 from Statistics.Pvalue import pvalue
 from Statistics.SampleMean import sample_mean
 from Statistics.StandardScore import standardscore
+from Statistics.VariancePopulationProportion import populationproportion
 import pprint
 from CsvReader.CsvReader import CsvReader
 
@@ -63,5 +64,9 @@ class Statistics:
 
     def standardscore(self, a, b, c):
         self.result = standardscore(a, b, c)
+        return self.result
+
+    def populationproportion(self, a, b):
+        self.result = populationproportion(a, b)
         return self.result
 
